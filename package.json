@@ -31,7 +31,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d build --repo=https://github.com/Dimitrispr9/da-coffee.git",
+  "homepage": "https://Dimitrispr9.github.io/da-coffee"
   },
   "eslintConfig": {
     "extends": [
