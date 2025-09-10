@@ -1,0 +1,57 @@
+export const pizzas = [
+  {
+    id: '1',
+    name: 'Espresso',
+    description: 'Πλούσιος και αρωματικός espresso.',
+    price: 2.50,
+  image: 'espresso.jpg',
+    category: 'Hot',
+    available: true,
+    ingredients: ['Espresso beans', 'Water'],
+  },
+  {
+    id: '2',
+    name: 'Cappuccino',
+    description: 'Αφρόγαλα με espresso, καλυμμένο με αφρό.',
+    price: 3.00,
+  image: 'capuccino.jpg',
+    category: 'Hot',
+    available: true,
+    ingredients: ['Espresso', 'Steamed milk', 'Foam'],
+  },
+  {
+    id: '3',
+    name: 'Latte',
+    description: 'Espresso με ζεστό νερό για απαλή γεύση.',
+    price: 3.20,
+  image: 'latte.jpg',
+    category: 'Hot',
+    available: true,
+    ingredients: ['Espresso', 'Steamed milk', 'Foam'],
+  },
+  {
+    id: '4',
+    name: 'Iced Coffee',
+    description: 'Espresso, αφρόγαλα και σοκολάτα.',
+    price: 2.80,
+  image: 'cold.coffee.jpg',
+    category: 'Cold',
+    available: true,
+    ingredients: ['Coffee', 'Ice'],
+  },
+  {
+    id: '5',
+    name: 'Mocha',
+    description: 'Κρύος espresso με γάλα και πάγο.',
+    price: 3.50,
+  image: 'mocha.jpg',
+    category: 'Hot',
+    available: true,
+    ingredients: ['Espresso', 'Chocolate', 'Steamed milk', 'Whipped cream'],
+  },
+];
+
+export const categories = [
+  { id: '1', name: 'Hot', description: 'Hot coffee drinks' },
+  { id: '2', name: 'Cold', description: 'Cold and iced coffee drinks' },
+];
