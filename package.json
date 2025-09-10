@@ -24,13 +24,13 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://Dimitrispr9.github.io/Dimitris",
+  "homepage": "https://Dimitrispr9.github.io/da-coffee",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+  "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
